@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CAE90E829B044D9008A7330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE90E729B044D9008A7330 /* AppDelegate.swift */; };
+		0CAE90EA29B044D9008A7330 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE90E929B044D9008A7330 /* SceneDelegate.swift */; };
+		0CAE90EC29B044D9008A7330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE90EB29B044D9008A7330 /* ViewController.swift */; };
+		0CAE90EF29B044D9008A7330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAE90ED29B044D9008A7330 /* Main.storyboard */; };
+		0CAE90F129B044DB008A7330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CAE90F029B044DB008A7330 /* Assets.xcassets */; };
+		0CAE90F429B044DB008A7330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAE90F229B044DB008A7330 /* LaunchScreen.storyboard */; };
+		0CAE90FF29B044DB008A7330 /* MySlidingCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE90FE29B044DB008A7330 /* MySlidingCardsTests.swift */; };
+		0CAE910929B044DB008A7330 /* MySlidingCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE910829B044DB008A7330 /* MySlidingCardsUITests.swift */; };
+		0CAE910B29B044DB008A7330 /* MySlidingCardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE910A29B044DB008A7330 /* MySlidingCardsUITestsLaunchTests.swift */; };
+		B3A3EFECC57434DABF6D5DAF /* Pods_MySlidingCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5E1BB27E2F3C72EBE10A29 /* Pods_MySlidingCards.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CAE90FB29B044DB008A7330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CAE90DC29B044D9008A7330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CAE90E329B044D9008A7330;
+			remoteInfo = MySlidingCards;
+		};
+		0CAE910529B044DB008A7330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CAE90DC29B044D9008A7330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CAE90E329B044D9008A7330;
+			remoteInfo = MySlidingCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CAE90E429B044D9008A7330 /* MySlidingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySlidingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CAE90E729B044D9008A7330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CAE90E929B044D9008A7330 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0CAE90EB29B044D9008A7330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CAE90EE29B044D9008A7330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CAE90F029B044DB008A7330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CAE90F329B044DB008A7330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CAE90F529B044DB008A7330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CAE90FA29B044DB008A7330 /* MySlidingCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySlidingCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CAE90FE29B044DB008A7330 /* MySlidingCardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySlidingCardsTests.swift; sourceTree = "<group>"; };
+		0CAE910429B044DB008A7330 /* MySlidingCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySlidingCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CAE910829B044DB008A7330 /* MySlidingCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySlidingCardsUITests.swift; sourceTree = "<group>"; };
+		0CAE910A29B044DB008A7330 /* MySlidingCardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySlidingCardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		74954E9B833B32C03FE1C501 /* Pods-MySlidingCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySlidingCards.release.xcconfig"; path = "Target Support Files/Pods-MySlidingCards/Pods-MySlidingCards.release.xcconfig"; sourceTree = "<group>"; };
+		8D6F9F13B77109246B11E366 /* Pods-MySlidingCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySlidingCards.debug.xcconfig"; path = "Target Support Files/Pods-MySlidingCards/Pods-MySlidingCards.debug.xcconfig"; sourceTree = "<group>"; };
+		AF5E1BB27E2F3C72EBE10A29 /* Pods_MySlidingCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySlidingCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CAE90E129B044D9008A7330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A3EFECC57434DABF6D5DAF /* Pods_MySlidingCards.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CAE90F729B044DB008A7330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CAE910129B044DB008A7330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CAE90DB29B044D9008A7330 = {
+			isa = PBXGroup;
+			children = (
+				0CAE90E629B044D9008A7330 /* MySlidingCards */,
+				0CAE90FD29B044DB008A7330 /* MySlidingCardsTests */,
+				0CAE910729B044DB008A7330 /* MySlidingCardsUITests */,
+				0CAE90E529B044D9008A7330 /* Products */,
+				CBEF9808C0921E0804D68148 /* Pods */,
+				79F2558B75693AC9613E7C1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0CAE90E529B044D9008A7330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CAE90E429B044D9008A7330 /* MySlidingCards.app */,
+				0CAE90FA29B044DB008A7330 /* MySlidingCardsTests.xctest */,
+				0CAE910429B044DB008A7330 /* MySlidingCardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CAE90E629B044D9008A7330 /* MySlidingCards */ = {
+			isa = PBXGroup;
+			children = (
+				0CAE90E729B044D9008A7330 /* AppDelegate.swift */,
+				0CAE90E929B044D9008A7330 /* SceneDelegate.swift */,
+				0CAE90EB29B044D9008A7330 /* ViewController.swift */,
+				0CAE90ED29B044D9008A7330 /* Main.storyboard */,
+				0CAE90F029B044DB008A7330 /* Assets.xcassets */,
+				0CAE90F229B044DB008A7330 /* LaunchScreen.storyboard */,
+				0CAE90F529B044DB008A7330 /* Info.plist */,
+			);
+			path = MySlidingCards;
+			sourceTree = "<group>";
+		};
+		0CAE90FD29B044DB008A7330 /* MySlidingCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CAE90FE29B044DB008A7330 /* MySlidingCardsTests.swift */,
+			);
+			path = MySlidingCardsTests;
+			sourceTree = "<group>";
+		};
+		0CAE910729B044DB008A7330 /* MySlidingCardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0CAE910829B044DB008A7330 /* MySlidingCardsUITests.swift */,
+				0CAE910A29B044DB008A7330 /* MySlidingCardsUITestsLaunchTests.swift */,
+			);
+			path = MySlidingCardsUITests;
+			sourceTree = "<group>";
+		};
+		79F2558B75693AC9613E7C1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF5E1BB27E2F3C72EBE10A29 /* Pods_MySlidingCards.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBEF9808C0921E0804D68148 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D6F9F13B77109246B11E366 /* Pods-MySlidingCards.debug.xcconfig */,
+				74954E9B833B32C03FE1C501 /* Pods-MySlidingCards.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CAE90E329B044D9008A7330 /* MySlidingCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CAE910E29B044DB008A7330 /* Build configuration list for PBXNativeTarget "MySlidingCards" */;
+			buildPhases = (
+				D01689D7BD2459C51D147587 /* [CP] Check Pods Manifest.lock */,
+				0CAE90E029B044D9008A7330 /* Sources */,
+				0CAE90E129B044D9008A7330 /* Frameworks */,
+				0CAE90E229B044D9008A7330 /* Resources */,
+				DF62E3E7AFC08531F22A2B47 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySlidingCards;
+			productName = MySlidingCards;
+			productReference = 0CAE90E429B044D9008A7330 /* MySlidingCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CAE90F929B044DB008A7330 /* MySlidingCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CAE911129B044DB008A7330 /* Build configuration list for PBXNativeTarget "MySlidingCardsTests" */;
+			buildPhases = (
+				0CAE90F629B044DB008A7330 /* Sources */,
+				0CAE90F729B044DB008A7330 /* Frameworks */,
+				0CAE90F829B044DB008A7330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CAE90FC29B044DB008A7330 /* PBXTargetDependency */,
+			);
+			name = MySlidingCardsTests;
+			productName = MySlidingCardsTests;
+			productReference = 0CAE90FA29B044DB008A7330 /* MySlidingCardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0CAE910329B044DB008A7330 /* MySlidingCardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CAE911429B044DB008A7330 /* Build configuration list for PBXNativeTarget "MySlidingCardsUITests" */;
+			buildPhases = (
+				0CAE910029B044DB008A7330 /* Sources */,
+				0CAE910129B044DB008A7330 /* Frameworks */,
+				0CAE910229B044DB008A7330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CAE910629B044DB008A7330 /* PBXTargetDependency */,
+			);
+			name = MySlidingCardsUITests;
+			productName = MySlidingCardsUITests;
+			productReference = 0CAE910429B044DB008A7330 /* MySlidingCardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CAE90DC29B044D9008A7330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0CAE90E329B044D9008A7330 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0CAE90F929B044DB008A7330 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0CAE90E329B044D9008A7330;
+					};
+					0CAE910329B044DB008A7330 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0CAE90E329B044D9008A7330;
+					};
+				};
+			};
+			buildConfigurationList = 0CAE90DF29B044D9008A7330 /* Build configuration list for PBXProject "MySlidingCards" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CAE90DB29B044D9008A7330;
+			productRefGroup = 0CAE90E529B044D9008A7330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CAE90E329B044D9008A7330 /* MySlidingCards */,
+				0CAE90F929B044DB008A7330 /* MySlidingCardsTests */,
+				0CAE910329B044DB008A7330 /* MySlidingCardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CAE90E229B044D9008A7330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CAE90F429B044DB008A7330 /* LaunchScreen.storyboard in Resources */,
+				0CAE90F129B044DB008A7330 /* Assets.xcassets in Resources */,
+				0CAE90EF29B044D9008A7330 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CAE90F829B044DB008A7330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CAE910229B044DB008A7330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D01689D7BD2459C51D147587 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MySlidingCards-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF62E3E7AFC08531F22A2B47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MySlidingCards/Pods-MySlidingCards-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MySlidingCards/Pods-MySlidingCards-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MySlidingCards/Pods-MySlidingCards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CAE90E029B044D9008A7330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CAE90EC29B044D9008A7330 /* ViewController.swift in Sources */,
+				0CAE90E829B044D9008A7330 /* AppDelegate.swift in Sources */,
+				0CAE90EA29B044D9008A7330 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CAE90F629B044DB008A7330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CAE90FF29B044DB008A7330 /* MySlidingCardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CAE910029B044DB008A7330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CAE910929B044DB008A7330 /* MySlidingCardsUITests.swift in Sources */,
+				0CAE910B29B044DB008A7330 /* MySlidingCardsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CAE90FC29B044DB008A7330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CAE90E329B044D9008A7330 /* MySlidingCards */;
+			targetProxy = 0CAE90FB29B044DB008A7330 /* PBXContainerItemProxy */;
+		};
+		0CAE910629B044DB008A7330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CAE90E329B044D9008A7330 /* MySlidingCards */;
+			targetProxy = 0CAE910529B044DB008A7330 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CAE90ED29B044D9008A7330 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CAE90EE29B044D9008A7330 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CAE90F229B044DB008A7330 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CAE90F329B044DB008A7330 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CAE910C29B044DB008A7330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CAE910D29B044DB008A7330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CAE910F29B044DB008A7330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D6F9F13B77109246B11E366 /* Pods-MySlidingCards.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4TH9W2QM7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MySlidingCards/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nspexture.com.MySlidingCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CAE911029B044DB008A7330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74954E9B833B32C03FE1C501 /* Pods-MySlidingCards.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4TH9W2QM7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MySlidingCards/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nspexture.com.MySlidingCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0CAE911229B044DB008A7330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4TH9W2QM7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nspexture.com.MySlidingCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySlidingCards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MySlidingCards";
+			};
+			name = Debug;
+		};
+		0CAE911329B044DB008A7330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4TH9W2QM7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nspexture.com.MySlidingCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySlidingCards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MySlidingCards";
+			};
+			name = Release;
+		};
+		0CAE911529B044DB008A7330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4TH9W2QM7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nspexture.com.MySlidingCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySlidingCards;
+			};
+			name = Debug;
+		};
+		0CAE911629B044DB008A7330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4TH9W2QM7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nspexture.com.MySlidingCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySlidingCards;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CAE90DF29B044D9008A7330 /* Build configuration list for PBXProject "MySlidingCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CAE910C29B044DB008A7330 /* Debug */,
+				0CAE910D29B044DB008A7330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CAE910E29B044DB008A7330 /* Build configuration list for PBXNativeTarget "MySlidingCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CAE910F29B044DB008A7330 /* Debug */,
+				0CAE911029B044DB008A7330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CAE911129B044DB008A7330 /* Build configuration list for PBXNativeTarget "MySlidingCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CAE911229B044DB008A7330 /* Debug */,
+				0CAE911329B044DB008A7330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CAE911429B044DB008A7330 /* Build configuration list for PBXNativeTarget "MySlidingCardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CAE911529B044DB008A7330 /* Debug */,
+				0CAE911629B044DB008A7330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CAE90DC29B044D9008A7330 /* Project object */;
+}
