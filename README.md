@@ -1,1 +1,1 @@
-# Swift - MySlidingCards
+# Swift app - MySlidingCards
